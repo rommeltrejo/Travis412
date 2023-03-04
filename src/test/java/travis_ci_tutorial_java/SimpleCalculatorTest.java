@@ -23,4 +23,10 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calculator = new SimpleCalculator();
 		assertEquals(calculator.multiply(12,2), 24);
 	}
+
+	@Test
+	public void testDivide(){
+		SimpleCalculator calc  = new SimpleCalculator();
+		assertEquals(calc.divide(10,2),5);
+	}
 }
