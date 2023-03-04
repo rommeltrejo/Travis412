@@ -17,4 +17,10 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calculator = new SimpleCalculator();
 		assertEquals(calculator.minus(20,2),18);
 	}
+
+	@Test
+	public void testMultiply(){
+		SimpleCalculator calculator = new SimpleCalculator();
+		assertEquals(calculator.multiply(12,2), 24);
+	}
 }
